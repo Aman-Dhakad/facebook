@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook- login or sign up</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <div class="left">
+            <span>Facebook</span>
+            <p>Facebook helps you connect and share <br> with the people in your life.</p>
+        </div>
+
+        <div class="right">
+            <form  onsubmit="return validation();">
+
+                <input type="email" name="my_email" id="email" placeholder="Email address or phone number">
+                    <span id="my-email"></span>
+                <br><br>
+                <input type="password" name="my_password" id="pass" placeholder="Pasword">
+                    <span id="my-pass"></span>
+                <br><br>
+
+                <input type="submit" class="log">
+                <!-- <button class="log">Log in</button> -->
+                <br><br>
+                <a href="#">Forgotten Password?</a>
+
+                <br><br><br> <hr>
+                <button class="crt">Create New Account</button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
